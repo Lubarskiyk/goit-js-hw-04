@@ -8,7 +8,7 @@ function calcAverageCalories(days) {
   return totalCalories / howDays;
 }
 
-console.log('TASK-2');
+console.group('TASK-2');
 
 console.log(
   calcAverageCalories([
@@ -34,4 +34,5 @@ console.log(
   ])
 ); // 2270
 
-console.log(calcAverageCalories([])); // 0
+console.log(calcAverageCalories([])); //00
+console.groupEnd;

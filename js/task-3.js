@@ -12,7 +12,7 @@ const profile = {
   },
 };
 
-console.log('TASK-3');
+console.group('TASK-3');
 
 console.log(profile.getInfo()); // "Jacob has 300 active hours!"
 
@@ -21,3 +21,4 @@ console.log(profile.getInfo()); // "Marco has 300 active hours!"
 
 profile.updatePlayTime(20);
 console.log(profile.getInfo()); // "Marco has 320 active hours!"
+console.groupEnd;

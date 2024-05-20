@@ -35,4 +35,4 @@ console.log(
 ); // 2270
 
 console.log(calcAverageCalories([])); //00
-console.groupEnd;
+console.groupEnd();
